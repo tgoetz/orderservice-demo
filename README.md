@@ -12,11 +12,18 @@
   ```text
   $ ./mvnw spring-boot:run
   ```
+## Endpoints
 
 The application runs on port `8080` and has two endpoints:
 
 * `http://localhost:8080/products`
 * `http://localhost:8080/orders`
+
+## Data storage
+
+An in-memory H2 database is used as storage solution, initial data is inserted by Spring Boot via `src/main/resources/data.sql`.
+
+## API docs and swagger-ui
 
 Please see the detailed API documentation below.
 There's also a swagger-ui endpoint available that can be reached via `http://localhost:8080/swagger-ui/`
