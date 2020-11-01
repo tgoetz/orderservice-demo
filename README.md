@@ -27,7 +27,7 @@ There's also a swagger-ui endpoint available that can be reached via `http://loc
 # API Documentation
 
 ## Product Resource
-CRUD resource for lsiting, creating, updating and deleting products
+CRUD resource for reading, creating, updating and deleting products
 
 ### Get all active products
 Returns JSON data of all active products. Products are active if they are not deleted.
@@ -307,6 +307,7 @@ The product will _not_ be removed from the datastore but instead flagged as 'del
 <br/>
 
 ## Order Resource
+Resource for receiving orders within a certain time period and for placing new orders
 ### Get all orders
 Returns JSON data of all existing orders or only of those within a given time period
 
